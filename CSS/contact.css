@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+span{
+    float: left;
+}
+span > img{
+    border:1px solId black;
+    border-radius:50%;
+}
+a{
+    text-decoration: none;
+    font-family:fantasy,sans-serif;
+    color: white;
+}
+ul{
+    float:right;
+    margin-top: 25px;
+}
+li{
+    display: inline-block;
+    width: 120px;
+    padding: 20px;
+    border: 2px;
+    text-align: center;
+    font-size:0.8cm;
+}
+form{
+    background-color: darkgrey;
+    font-size: 20px;
+    color:black;
+    
+}
+legend{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: darkblue;
+}
+button{
+    height: 30px;
+    width: 120px;
+    font-size: 20px;
+    color: blue;
+    background-color: azure;
+}
+footer{
+    margin-top: 2%;
+    height:200px;
+    font-size: 25px;
+}
+h4{
+   float: left;
+    margin-left: 70px;
+    margin-top: 40px;
+}

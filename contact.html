@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <style>
+        nav, footer
+            {  
+                background-color:saddlebrown;
+                height: 200px;
+                
+            }
+    </style>
+</head>
+
+<body>
+    <nav class="n04">
+
+        <!--This is a comment in HTML-->
+        <span>
+            <img src="images/logo.jpg" alt="logo" width="140px">
+        </span>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cars.html">Cars</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="#">Contact </a></li>
+        </ul>
+    </nav>
+
+    <form action="" method="POST">
+            <fieldset>
+                <legend>Book Your Favourite Car</legend>
+        <label for="first-name">First Name:</label><br>
+           <input type="text" id="first-name" placeholder=" Write your First Name" required><br>
+        <label for="last-name">Last Name:</label><br>
+           <input type="text" id="last-name" placeholder=" Write your Last Name" required><br>
+           <label for="r1">Gender:</label><br>
+                   <input type="radio" id="r1" name="male" value="male" checked >Male<br>
+                   <input type="radio" id="r2" name="female" value="female" >Female<br>
+                   <input type="radio" id="r3" name="other" value="other">Other<br>
+        </fieldset>
+        <fieldset>
+            <label for="clr">Choose your favorite Color Car</label>
+                <input type="color" id="clr">
+            <legend>Favorite Color</legend>
+            <label for="slct">Choose your favorite Brand</label>
+                <select id="slct">
+                    <option value="Hyundai">Hyundai</option>
+                    <option value="Ford">Ford</option>
+                    <option value="Nissan">Nissan</option>
+                    <option value="Kia">Kia</option>
+                </select><br>
+        </fieldset>
+            <fieldset>
+            <legend>Message</legend>
+                <label for="msg"></label>
+                    <textarea name="message" id="msg" cols="45" rows="18" placeholder="Please write your Message here"></textarea>
+            </fieldset>
+            <span>
+        <button>Submit</button>
+    </span>
+     </form>
+
+    
+     <footer class="n01">
+            <h4>&copy;2020 All Rights Reserverd    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Privacy Policy 
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     Terms and conditions
+                 &nbsp&nbsp&nbsp &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email Id:<a href="http:/www.gmail.com">sssatnam7779@gmail.com</a></h4>
+        </footer>
+    
+</body>
+
+</html>
